@@ -14,24 +14,24 @@ https://www.kaggle.com/snap/amazon-fine-food-reviews
 ## 2.Machine learning problem
 ### 2.1 Data
 #### 2.1.1 Data Overview
-Number of reviews: 568,454
-Number of users: 256,059
-Number of products: 74,258
-Timespan: Oct 1999 - Oct 2012
-Number of Attributes/Columns in data: 10
+Number of reviews: 568,454<br>
+Number of users: 256,059<br>
+Number of products: 74,258<br>
+Timespan: Oct 1999 - Oct 2012<br>
+Number of Attributes/Columns in data: 10<br>
 
-Attribute Information:
+Attribute Information:<br>
 
-1.Id
-2.ProductId - unique identifier for the product
-3.UserId - unqiue identifier for the user
-4.ProfileName
-5.HelpfulnessNumerator - number of users who found the review helpful
-6.HelpfulnessDenominator - number of users who indicated whether they found the review helpful or not
-7.Score - rating between 1 and 5
-8.Time - timestamp for the review
-9.Summary - brief summary of the review
-10.Text - text of the review
+1.Id<br>
+2.ProductId - unique identifier for the product<br>
+3.UserId - unqiue identifier for the user<br>
+4.ProfileName<br>
+5.HelpfulnessNumerator - number of users who found the review helpful<br>
+6.HelpfulnessDenominator - number of users who indicated whether they found the review helpful or not<br>
+7.Score - rating between 1 and 5<br>
+8.Time - timestamp for the review<br>
+9.Summary - brief summary of the review<br>
+10.Text - text of the review<br>
 
 ### 2.2 Mapping the real-world problem to a Machine Learning Problem
 #### 2.2.1 Type of Machine Learning Problem
@@ -40,10 +40,10 @@ Binary Classification problem,Given a review we need to predict it is negative o
 F1-score
 
 ## 3.Data Preprocessing
-* Remove Special characters 
-* Remove stop words
-* Remove HTML Tags
-* Removing null coloumn
+* Remove Special characters <br>
+* Remove stop words<br>
+* Remove HTML Tags<br>
+* Removing null coloumn<br>
 ## 4.Splitting Data
 ### Time based Splitting into train,cv and test
     Train-60
