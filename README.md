@@ -102,8 +102,36 @@ F1-score
 | Av-Word2Vec |100|0.72|88.7%|
 |  Tf-IDF Word2vec | 100|0.732|86.917%|
 
+### 4.Decision Tree
+#### Conclusion
+| Model | hyper parameter   |F1score test|accuracy Test
+|------|------|------|------|
+|  unigram  | 43| 0.700|84.665%|
+| Bi-gram | 75|0.723| 85.275%|
+|  Tf-IDF | 53| 0.717| 84.600%|
+| Av-Word2Vec |7|0.680|84.75%|
+|  Tf-IDF Word2vec |9|0.656| 83.66%|
+
+### 5.GBDT
+#### Conclusion
+|Model|learning Rate|n_estimator|F1score test|accuracy Test
+|-----|-------------|-----------|------------|-------------|
+|unigram|0.1|500|0.786|89.595%|
+|Bi-gram|1|500|0.804|89.580%|
+|Tf-IDF|0.5|500||0.812|90.055%|
+|Av-Word2Vec|0.5|60|0.777|88.390%|
+|Tf-IDF Word2vec|0.1|500|0.746|87.745%|
 
 
+### 6.RandomForest
+#### Conclusion
+|Model|Max-Depth|n_estimator|F1score test|Accuracy Test
+|-----|---------|-----------|------------|-------------|
+|unigram|150|12|0.713|87.030%|
+|Bi-gram|140|4|0.566|83.510%|
+|Tf-IDF|150|4|0.636|84.35%|
+|Av-Word2Vec|70|16|0.461|82.305%|
+|Tf-IDF Word2vec|20|12|0.559|54.115%|
 
 
 
