@@ -1,4 +1,5 @@
 # Sentiment Analysis of Amazon Fine Food reviews
+### Learning Project
 ## 1.Business Problem
 ### 1.1 Description
 #### Description
@@ -37,3 +38,72 @@ Attribute Information:
 Binary Classification problem,Given a review we need to predict it is negative or postive reviews
 #### 2.2.2 Performance metric
 F1-score
+
+## 3.Data Preprocessing
+* Remove Special characters 
+* Remove stop words
+* Remove HTML Tags
+* Removing null coloumn
+## 4.Splitting Data
+### Time based Splitting into train,cv and test
+    Train-60
+    cv-20
+    test-20
+    
+## Applying various Machine Learning models
+### 1-KNearestNeighbour
+#### 1.1-Knn BruteForce
+##### Conclusion
+| Model | hyper parameter   |F1-score  TEST|Accuracy score TEST
+|------|------|------|------|
+|  unigram  | 15| 83.7%|0.50|
+| Bi-gram | 15| 83.5%|0.48|
+|  Tf-IDF | 15| 84.8%|0.574|
+| Av-Word2Vec |17|86.9%|0.689|
+|  Tf-IDF Word2vec | 17|86.1%|0.656|
+
+#### 1.2-Knn KdTree
+##### Conclusion
+| Model | hyper parameter   |F1-score  TEST|Accuracy score TEST
+|------|------|------|------|
+|  unigram  | 7| 0.534|83.858%|
+| Bi-gram | 9| 0.492|0.492%|
+|  Tf-IDF | 11| 0.574|84.808%|
+| Av-Word2Vec |11|0.687|86.475%|
+|  Tf-IDF Word2vec | 17|0.646|85.458%|
+
+### 2.Naive Bayes
+##### Conclusion
+| Model | hyper parameter   |F1score test|accuracy Test
+|------|------|------|------|
+|  unigram  |0.01| 0.818|90.17%|
+| Bi-gram | 0.5|0.81|91.172%|
+|  Tf-IDF | 0.05| 0.733|89.055%|
+
+### 3.Logistic Regression
+#### L1 regulization
+#### Conclusion
+| Model | hyper parameter   |F1score test|accuracy Test
+|------|------|------|------|
+|  unigram  | 1| 0.793|87.740%|
+| Bi-gram | 1|0.812| 90.650%|
+|  Tf-IDF | 1| 0.826| 91.260%|
+| Av-Word2Vec |100|0.777|88.565%|
+|  Tf-IDF Word2vec |0.0001|0.607| 84.705%|
+
+#### L2 regulization
+#### Conclusion
+
+| Model | hyper parameter   |F1score test|accuracy Test
+|------|------|------|------|
+|  unigram  | 0.0001| 0.777|86.7%|
+| Bi-gram | 1|0.692|87.210%|
+|  Tf-IDF | 10000| 0.87|92.715%|
+| Av-Word2Vec |100|0.72|88.7%|
+|  Tf-IDF Word2vec | 100|0.732|86.917%|
+
+
+
+
+
+
