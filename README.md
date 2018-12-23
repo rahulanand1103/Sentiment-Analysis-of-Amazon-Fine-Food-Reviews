@@ -67,7 +67,7 @@ F1-score
 | Model | hyper parameter   |F1-score  TEST|Accuracy score TEST
 |------|------|------|------|
 |  unigram  | 7| 0.534|83.858%|
-| Bi-gram | 9| 0.492|0.492%|
+| Bi-gram | 9| 0.492|83.400%|
 |  Tf-IDF | 11| 0.574|84.808%|
 | Av-Word2Vec |11|0.687|86.475%|
 |  Tf-IDF Word2vec | 17|0.646|85.458%|
