@@ -51,6 +51,7 @@ F1-score
     test-20
     
 ## Applying various Machine Learning models
+### *** Due to memory constraints taking only 100,000 Data points(Reviews) ***
 ### 1-KNearestNeighbour
 #### 1.1-Knn BruteForce
 ##### Conclusion
@@ -118,7 +119,7 @@ F1-score
 |-----|-------------|-----------|------------|-------------|
 |unigram|0.1|500|0.786|89.595%|
 |Bi-gram|1|500|0.804|89.580%|
-|Tf-IDF|0.5|500||0.812|90.055%|
+|Tf-IDF|0.5|500|0.812|90.055%|
 |Av-Word2Vec|0.5|60|0.777|88.390%|
 |Tf-IDF Word2vec|0.1|500|0.746|87.745%|
 
@@ -134,5 +135,8 @@ F1-score
 |Tf-IDF Word2vec|20|12|0.559|84.115%|
 
 ## Conclusion
-
-
+•<b>Unigram</b>-Use NB it give the F1-score of 0.818<br>
+•<b>Bigram</b>-Use NB it give the F1-score of 0.81 or Logistic Regression it give the F1-score of 0.812 with L1 regulization</br>
+•<b>Tf-idf</b>-Use GBDT it give the F1-score of 0.812 or Logistic Regression it give the F1-score of 0.826 with L1 regulization<br>
+•<b>Av-Word2Vec</b>-Use GBDT it give the F1-score of 0.777 or Logistic Regression it give the F1-score of 0.0777 with L1 regulization<br>
+•<b>Tf-IDF Word2vec</b>-Use GBDT it give the F1-score of 0.746 
