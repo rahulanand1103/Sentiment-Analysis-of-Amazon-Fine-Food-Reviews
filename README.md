@@ -54,7 +54,7 @@ F1-score
 ### 1-KNearestNeighbour
 #### 1.1-Knn BruteForce
 ##### Conclusion
-| Model | hyper parameter   |F1-score  TEST|Accuracy score TEST
+| Model | hyper parameter   |Accuracy score TEST|F1-score  TEST
 |------|------|------|------|
 |  unigram  | 15| 83.7%|0.50|
 | Bi-gram | 15| 83.5%|0.48|
