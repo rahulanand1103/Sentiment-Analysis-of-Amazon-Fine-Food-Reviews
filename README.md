@@ -134,6 +134,16 @@ F1-score
 |Av-Word2Vec|70|16|0.461|82.305%|
 |Tf-IDF Word2vec|20|12|0.559|84.115%|
 
+### 6.SVM
+#### Conclusion
+|Model|alpha|Test Roc Auc|Train Roc Auc|F1-score
+|-----|---------|-----------|------------|-------------|
+|unigram|0.001|0.933|0.940|0.824|
+|Bi-gram|0.001|0.942|0.950|0.851|
+|Tf-IDF|0.00001|0.956|0.9611|0.872|
+|Av-Word2Vec|0.001|0.901|0.907|0.765|
+|Tf-IDF Word2vec|0.001|0.901|0.877|0.719|
+
 ## Conclusion
 •<b>Unigram</b>-Use NB it give the F1-score of 0.818<br>
 •<b>Bigram</b>-Use NB it give the F1-score of 0.81 or Logistic Regression it give the F1-score of 0.812 with L1 regulization</br>
